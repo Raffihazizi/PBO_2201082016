@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Raffi_060623.model;
+package raffi_2016.model;
 
 import java.util.*;
 /**
@@ -13,8 +13,8 @@ public class AnggotaDao {
     private List<Anggota> data = new ArrayList();
     
     public AnggotaDao(){
-        data.add(new Anggota ("112","Raffi","padang","L"));
-        data.add(new Anggota ("113","hazizi","solok","p"));
+        data.add(new Anggota ("112","annisa","padang","L"));
+        data.add(new Anggota ("113","yusri","solok","p"));
         
     }
     

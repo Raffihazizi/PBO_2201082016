@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Raffi_060623.view;
+package raffi_2016.view;
 
-import Raffi_060623.controller.AnggotaController;
+import raffi_2016.controller.AnggotaController;
 /**
  *
  * @author Slime1
@@ -50,16 +50,6 @@ public class FromAnggota extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel5 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        scrollPane1 = new java.awt.ScrollPane();
-        jPanel1 = new javax.swing.JPanel();
-        jFrame1 = new javax.swing.JFrame();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -75,33 +65,15 @@ public class FromAnggota extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tabelanggota = new javax.swing.JTable();
 
-        jLabel5.setText("jLabel5");
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane2.setViewportView(jTextArea1);
-
-        jButton1.setText("jButton1");
-
-        jButton2.setText("jButton2");
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-        jScrollPane3.setViewportView(jTable1);
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
         jLabel1.setText("Kode Anggota");
+        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel1MouseReleased(evt);
+            }
+        });
         getContentPane().add(jLabel1);
         jLabel1.setBounds(20, 20, 80, 16);
 
@@ -166,11 +138,6 @@ public class FromAnggota extends javax.swing.JFrame {
         jButton4.setBounds(300, 150, 72, 23);
 
         cbojenkel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        cbojenkel.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbojenkelActionPerformed(evt);
-            }
-        });
         getContentPane().add(cbojenkel);
         cbojenkel.setBounds(150, 110, 72, 22);
 
@@ -230,9 +197,9 @@ public class FromAnggota extends javax.swing.JFrame {
        controller.getAnggota();  // TODO add your handling code here:
     }//GEN-LAST:event_tabelanggotaMouseClicked
 
-    private void cbojenkelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbojenkelActionPerformed
+    private void jLabel1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseReleased
         // TODO add your handling code here:
-    }//GEN-LAST:event_cbojenkelActionPerformed
+    }//GEN-LAST:event_jLabel1MouseReleased
 
     /**
      * @param args the command line arguments
@@ -274,22 +241,12 @@ public class FromAnggota extends javax.swing.JFrame {
     private javax.swing.JButton btninsert;
     private javax.swing.JButton btnupdate;
     private javax.swing.JComboBox<String> cbojenkel;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton4;
-    private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTextArea jTextArea1;
-    private java.awt.ScrollPane scrollPane1;
     private javax.swing.JTable tabelanggota;
     private javax.swing.JTextField txtalamat;
     private javax.swing.JTextField txtkode;

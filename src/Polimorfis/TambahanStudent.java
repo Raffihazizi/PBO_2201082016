@@ -11,7 +11,7 @@ package Polimorfis;
 public class TambahanStudent {
     public static void main(String[] args) {
         // Membuat objek ComputerScienceStudent
-        Contoh student = new Contoh("Dini Damayanti", "Lubuk basung", 18, "Java", 2);
+        Contoh student = new Contoh("Raffi", "pekanabaru", 18, "Java", 2);
 
         // Mengatur nilai-nilai lainnya
         student.setMathGrade(90);

@@ -4,6 +4,8 @@
  */
 package Polimorfis;
 
+import Raffi030523.Person;
+
 /**
  *
  * @author Ideapad 3 14ITL6
